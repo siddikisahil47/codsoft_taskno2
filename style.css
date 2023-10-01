@@ -168,15 +168,14 @@ span:hover {
     border: none;
     opacity: 0.6;
     outline: none;
-    color: #fff;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    background-color: hsla(166, 100%, 50%, 0.7);
+    color: black;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 15px;
     padding: 7px 13px;
-    border-radius: 4px;
-    letter-spacing: 0.3px;
+    font-weight: 600;
     pointer-events: none;
-    transition: transform 0.25s ease;
-    background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
 }
 
 .clear-btn.active {
